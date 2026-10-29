@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.10.0](https://github.com/croffasia/itsaplan/compare/v1.9.0...v1.10.0) (2026-10-29)
+
+
+### Features
+
+* agent run queues for teams and workspaces, with limits on concurrent runs ([#727](https://github.com/croffasia/itsaplan/issues/727)) ([62646c3](https://github.com/croffasia/itsaplan/commit/62646c340072ca2147bf3f42797e000356d4fdcb))
+* agent_run.finished webhook event when an agent run ends ([#741](https://github.com/croffasia/itsaplan/issues/741)) ([30e31d5](https://github.com/croffasia/itsaplan/commit/30e31d5cc9234c9c46f3e4b980e3e5ff13644b9d))
+* **agent-tools:** add Keenable web search and fetch tools for AI agents ([#738](https://github.com/croffasia/itsaplan/issues/738)) ([9e1e704](https://github.com/croffasia/itsaplan/commit/9e1e704335009f405c9f74d9bc709b374f09a38d))
+* from address for a team's own email provider ([#740](https://github.com/croffasia/itsaplan/issues/740)) ([87e2759](https://github.com/croffasia/itsaplan/commit/87e2759c7ac8334166315b78ffb2d5aa2e197bc7))
+* link directly to a comment ([#724](https://github.com/croffasia/itsaplan/issues/724)) ([6c43b36](https://github.com/croffasia/itsaplan/commit/6c43b368b6ebf042be53e5ba0ff1f9b6eaf547fe))
+* system roles that the instance owner manages in god mode ([#726](https://github.com/croffasia/itsaplan/issues/726)) ([e6e7f77](https://github.com/croffasia/itsaplan/commit/e6e7f775c44a9275bd38c543c23a2f55b9cc9b2a))
+
+
+### Bug Fixes
+
+* **web:** stop the tab title loop on titles with extra whitespace ([#722](https://github.com/croffasia/itsaplan/issues/722)) ([73aadf9](https://github.com/croffasia/itsaplan/commit/73aadf9945ec4c8a23c749fb4f4dee25b036acb3))
+
+
+### Performance
+
+* **api:** load the board's issue details in parallel and by project ([#730](https://github.com/croffasia/itsaplan/issues/730)) ([d972e4e](https://github.com/croffasia/itsaplan/commit/d972e4e1b412a0204da2e0dde43fbf3a7dfad11d))
+* **api:** read each project once in the access guards ([#728](https://github.com/croffasia/itsaplan/issues/728)) ([d54d0e2](https://github.com/croffasia/itsaplan/commit/d54d0e2c1ee4ce706e17a16abf47d4297c5cc397))
+* **api:** read the sync markers without scanning every project ([#729](https://github.com/croffasia/itsaplan/issues/729)) ([e39c198](https://github.com/croffasia/itsaplan/commit/e39c19819d8b1aaf6ce7a2787dc660713f8106ff))
+* refetch on tab focus only through the sync poll, index issue links ([#731](https://github.com/croffasia/itsaplan/issues/731)) ([911df91](https://github.com/croffasia/itsaplan/commit/911df91cba60f9ef876219c61cce3128a1383e6c))
+
 ## [1.9.0](https://github.com/croffasia/itsaplan/compare/v1.8.0...v1.9.0) (2026-10-27)
 
 
